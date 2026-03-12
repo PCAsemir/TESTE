@@ -1,6 +1,0 @@
-git clone https://github.com/meninet/cienciaplural /tmp/cienciaplural
-rsync -av --exclude='.git' /tmp/cienciaplural/ /workspace/TESTE/
-cd /workspace/TESTE
-git add .
-git commit -m "Importa base do site cienciaplural"
-git push -u origin work
